@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Graphe orienté – Itinéraire Kinshasa</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        svg {
+            border: 1px solid #ccc;
+        }
+
+        .link {
+            stroke: #555;
+            stroke-width: 2px;
+        }
+
+        .node circle {
+            fill: #4f46e5;
+        }
+
+        .node text {
+            fill: white;
+            font-size: 10px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Itinéraire Rond-point Victoire → Gare Centrale</h2>
+    <svg width="1000" height="600"></svg>
+
+    <script src="graph.js"></script>
+</body>
+
+</html>
